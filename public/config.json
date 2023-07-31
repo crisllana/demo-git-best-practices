@@ -1,0 +1,48 @@
+{
+  "environment": "test",
+  "services": {
+    "stats": {
+      "url": "https://statistics.internal.test.empathy.co"
+    },
+    "play": {
+      "url": "https://play-service-api.internal.test.empathy.co",
+      "clientId": "playboard",
+      "clientSecret": "2bxfajW9cFA7PAJk"
+    },
+    "search": {
+      "url": "https://search.internal.test.empathy.co"
+    },
+    "index": {
+      "url": "https://index-api.internal.test.empathy.co"
+    },
+    "configuration": {
+      "url": "https://config-service.internal.test.empathy.co"
+    },
+    "audit": {
+      "url": "https://audit-service.internal.test.empathy.co"
+    },
+    "user": {
+      "url": "https://play-user-api.internal.test.empathy.co"
+    },
+    "tagging": {
+      "url": "https://tagging-playboard.internal.test.empathy.co"
+    },
+    "semantic": {
+      "url": "https://semantics-api.internal.test.empathy.co"
+    },
+    "beacon": {
+      "url": "https://beacon-api.internal.test.empathy.co"
+    },
+    "queryProcessor": {
+      "url": "https://query-processor.internal.test.empathy.co"
+    }
+  },
+  "customization": {
+    "logos": {
+      "imagotype": "https://playboard-platform.internal.test.empathy.co//static/logos/imagotype.svg",
+      "isotype": "https://playboard-platform.internal.test.empathy.co//static/logos/isotype.svg",
+      "favicon": ""
+    }
+  },
+  "userStaticsUrl": "https://play-user-statics.internal.test.empathy.co"
+}
