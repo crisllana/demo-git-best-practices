@@ -5,10 +5,12 @@
     "type": "git",
     "url": "https://github.com/empathyco/play-playboard-app-academy-iam.git"
   },
-  "private": true,
+  "private": false,
   "files": [
     "dist/**/*"
   ],
+
+
   "scripts": {
     "preinstall": "command -v link-module-alias && link-module-alias clean || true",
     "postinstall": "link-module-alias",
